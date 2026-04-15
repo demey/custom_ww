@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "Marichka",
+  "wake_word": "Хей Марічка",
   "author": "Igor Kochubynskyi",
   "website": "local",
   "model": "./marichka.tflite",
