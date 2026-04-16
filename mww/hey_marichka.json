@@ -3,7 +3,7 @@
   "wake_word": "Hey Marichka",
   "author": "Igor Kochubynskyi",
   "website": "https://demey.pp.ua/",
-  "model": "marichka.tflite",
+  "model": "hey_marichka.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
