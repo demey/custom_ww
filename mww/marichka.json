@@ -1,10 +1,11 @@
 {
+  "version": 2,
   "type": "micro",
   "wake_word": "Hey Marichka",
-  "Igor Kochubynskyi",,
+  "author": "Igor Kochubynskyi",
   "website": "https://demey.pp.ua/",
-  "model": "./marichka.tflite",
-  "version": 2,
+  "model": "marichka.tflite",
+  "trained_languages": ["uk"],
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_average_size": 5,
