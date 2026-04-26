@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "model": "https://raw.githubusercontent.com/demey/custom_ww/refs/heads/main/mww/stream_state_internal_quant.tflite",
   "model_type": "tflite",
   "model_settings": {
