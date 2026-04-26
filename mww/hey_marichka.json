@@ -1,13 +1,16 @@
 {
-  "version": 1,
-  "model": "https://raw.githubusercontent.com/demey/custom_ww/refs/heads/main/mww/stream_state_internal_quant.tflite",
-  "model_type": "tflite",
-  "model_settings": {
-    "sample_rate": 16000,
-    "window_size_samples": 480,
-    "window_stride_samples": 160,
-    "spectrogram_length": 40
-  },
-  "probability_cutoff": 0.97,
-  "sliding_window_size": 5
+  "type": "micro",
+  "model": "stream_state_internal_quant.tflite",
+  "author": "Igor Kochubynskyi",
+  "version": 2,
+  "wake_word": "hey marichka",
+  "trained_languages": ["uk"],
+  "website": "https://demey.pp.ua/",
+  "micro": {
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "probability_cutoff": 0.97,
+    "sliding_window_size": 5,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
