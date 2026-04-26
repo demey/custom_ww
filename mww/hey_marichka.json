@@ -1,6 +1,6 @@
 {
   "model": "https://raw.githubusercontent.com/demey/custom_ww/refs/heads/main/mww/stream_state_internal_quant.tflite",
-  "type": "tflite",
+  "model_type": "tflite",
   "version": 1,
   "probability_cutoff": 0.97,
   "sliding_window_size": 5,
