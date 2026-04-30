@@ -9,7 +9,7 @@
   "micro": {
     "feature_step_size": 10,
     "tensor_arena_size": 23552,
-    "probability_cutoff": 0.95,
+    "probability_cutoff": 0.92,
     "sliding_window_size": 5,
     "minimum_esphome_version": "2024.7.0"
   }
